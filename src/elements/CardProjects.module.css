@@ -1,0 +1,47 @@
+.cardProjects {
+    display: grid;
+    grid-template-columns: 30% 40%;
+    margin: 30px 0px 30px 0px;
+    color: #21243D;
+    padding-bottom: 30px;
+    border-bottom: solid 1px #E0E0E0;
+    margin-right: 15%;
+}
+
+.cardProjects img {
+    width: 300px;
+    cursor: pointer;
+}
+
+.cardProjects h4 {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 44.06px;
+    margin: 0px;
+}
+
+.cardProjects p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23.5px;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .cardProjects {
+        display: grid; 
+        grid-template-columns: 90%;
+    }
+
+    .cardProjects img{
+        width: 250px;
+    }
+
+    .cardProjects h4 {
+        font-size: 20px;
+    }
+
+    .cardProjects p {
+        font-size: 14px;
+    }
+}

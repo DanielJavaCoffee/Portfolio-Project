@@ -1,0 +1,35 @@
+.navbar {
+    height: 200px;
+    padding-top: 25px;  
+    font-size: 20px;
+    line-height: 29.38px;
+}
+
+.navbar ul{
+    display: flex;
+    gap: 30px;
+    margin-left: 80%;
+}
+
+.navbar li {
+    list-style: none;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: 600;
+}
+
+a:hover{
+    color: #FF6464;
+    transform: translateY(-7px);
+    transition-duration: 0.5s;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .navbar ul {
+        margin-left: 10%;
+    }
+}

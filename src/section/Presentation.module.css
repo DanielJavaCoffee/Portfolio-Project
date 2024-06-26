@@ -1,0 +1,54 @@
+.presentation {
+    margin-left: 10%;
+    width: 50%;
+    color: #21243D;
+    font-family: Heebo;
+}
+
+.presentation h1 {
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 60px;
+    height: 60px;
+}
+
+.presentation p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23.5px;
+}
+
+.presentation button {
+    background-color: #FF6464;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 29.38px;
+
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 25px;
+}
+
+button:hover{
+    background-color: #010B28;
+    transform: translateY(-7px);
+    transition-duration: 0.5s;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .presentation {
+        margin-left: 10%;
+        width: 80%;
+    }
+
+    .presentation h1 {
+        font-size: 25px;
+    }
+
+    .presentation p {
+        font-size: 15px;
+    }
+}
