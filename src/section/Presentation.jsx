@@ -48,7 +48,7 @@ function Presentation(){
                 </p>
             </div>
 
-            <div>
+            <div id='Contato'>
                 <button>Download resumo</button>
             </div>
         </div>

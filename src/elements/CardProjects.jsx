@@ -1,10 +1,10 @@
 import style from './CardProjects.module.css'
 
-function CardProjects({src, title, text}){
+function CardProjects({link, src, title, text}){
     return (
         <div className={style.cardProjects}>
             <div>
-                <img src={src} alt='ERRO'></img>
+                <a href={link} target='_blank'><img src={src} alt='ERRO'></img></a>
             </div>
 
             <div>

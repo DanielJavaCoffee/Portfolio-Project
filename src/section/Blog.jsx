@@ -3,7 +3,7 @@ import Card from '../elements/CardBlogs'
 
 function Blog(){
     return (
-        <div className={style.blog}>
+        <div className={style.blog} id='Blog'>
             <h2>Blog</h2>
 
 

@@ -11,6 +11,7 @@
 .cardProjects img {
     width: 300px;
     cursor: pointer;
+    border: #b5b5b9 1px solid;
 }
 
 .cardProjects h4 {
